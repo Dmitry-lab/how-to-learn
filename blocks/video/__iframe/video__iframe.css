@@ -1,0 +1,14 @@
+.video__iframe {
+  margin-right: 20px;
+  border: none;
+}
+
+/*С указанной шириной страницы в строку помещается 3 элемента с видео,
+  убираем отступ либо у последнего (если количество элементов в строке меньше 3), либо у 3-го в строке*/
+.video__iframe:last-of-type {
+  margin-right: 0;
+}
+
+.video__iframe:nth-of-type(3n) {
+  margin-right: 0;
+}
