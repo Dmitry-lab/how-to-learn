@@ -1,4 +1,6 @@
 .feinman__subtitle {
+  max-width: -moz-fit-content;
+  max-width: -webkit-fit-content;
   max-width: fit-content;
   margin: 0 auto;
   font-size: 36px;

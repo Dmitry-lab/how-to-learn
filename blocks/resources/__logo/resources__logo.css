@@ -2,12 +2,13 @@
   margin-top: 80px;
   height: 38px;
   width: 270px;
-  transition: background-color .5s ease-in-out;
-  transition: opacity .5s ease-in-out;
-
+  outline: 2px solid white;
+  transition: .6s ease-in-out;
 }
 
 .resources__logo:hover {
   opacity: 0.5;
-  background-color: ;
+  outline: 2px solid #bdbdbd;
 }
+
+

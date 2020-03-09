@@ -13,7 +13,6 @@
 }
 
 .feinman__link:hover {
-  border-bottom: 1px solid black;
   font-size: 38px;
   opacity: .6;
 }
