@@ -1,5 +1,13 @@
 .resources__logo {
   margin-top: 80px;
   height: 38px;
-  flex-basis: 270px;
+  width: 270px;
+  transition: background-color .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+
+}
+
+.resources__logo:hover {
+  opacity: 0.5;
+  background-color: ;
 }

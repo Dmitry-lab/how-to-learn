@@ -1,0 +1,19 @@
+@keyframes rotate-square {
+  from {
+    transform: rotate(-15deg);
+  }
+
+  to {
+    transform: rotate(345deg);
+  }
+}
+
+@keyframes rotate-triangle {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
